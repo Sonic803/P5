@@ -1,0 +1,17 @@
+<html>
+  <head>
+  </haad>
+  <body>
+    
+   <h1> <a href="antocio.xyz/GameOLife/">GameOfLife</a>  </h1>
+    
+   <h1>  <a href="antocio.xyz/Mandelbrot/">Mandelbrot</a>  </h1>
+    
+   <h1> <a href="antocio.xyz/SpiralePrimi/">SpiralePrimi</a>  </h1>
+    
+   <h1> <a href="antocio.xyz/JuliaSet/">JuliaSet</a>  </h1>
+    
+   <h1> <a href="antocio.xyz/Rules/">Automata</a>  </h1>
+  </body>
+
+</html>
