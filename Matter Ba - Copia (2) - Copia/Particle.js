@@ -12,7 +12,8 @@ function Particle(x,y,w,h,dens){
 
   this.body = Bodies.rectangle(x,y,w,h,options);
 //  this.body.inertia=k;
-//  this.body.inverseInertia=1/k;
+//  this.body.inverseInertia=1/k;
+
   World.add(world, this.body);
   this.red=random(0,255);
   this.green=random(0,255);
@@ -27,9 +28,9 @@ Particle.prototype.show = function(){
       push();
   						translate(pos.x, pos.y);
 
-              stroke(0,0,0,100);
-              strokeWeight(5);
-              line(0,0,this.body.velocity.x*3,this.body.velocity.y*3)
+              //stroke(0,0,0,100);
+              //strokeWeight(5);
+              //line(0,0,this.body.velocity.x*3,this.body.velocity.y*3)
 
       rotate(angle);
       rectMode(CENTER);
@@ -49,5 +50,6 @@ Particle.prototype.show = function(){
 
     velx=abs(this.body.velocity.x);
     vely=abs(this.body.velocity.y);
-  	pointss.push(new Pointt(pos.x,pos.y,angle,this.h,velx,vely))
+  	pointss.push(new Pointt(pos.x,pos.y,angle,this.h,velx,vely))
+
 }
