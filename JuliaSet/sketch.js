@@ -1,6 +1,6 @@
 
-let Windth=400;
-let Length=400;
+let Windth=300;
+let Length=300;
 
 let x;
 let y;
@@ -9,7 +9,7 @@ let ya=0;
 let xx=0;
 let yy=0;
 let k=4;
-let maxit=100;
+let maxit=50;
 let brig;
 let f;
 let c;
