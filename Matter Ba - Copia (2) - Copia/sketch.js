@@ -56,7 +56,7 @@ function setup() {
   world =engine.world;
 
   createCanvas(windth,heigth);
-  background(20,100,20,255);
+  background(90,100,90,255);
 
   var p = new Particle(windth/2,0,w1,h1,0.001);
   particles.push(p);
@@ -95,7 +95,7 @@ function draw() {
   //    var p = new Particle(windth/2,0,35);
   //    particles.push(p);
   //  }
-  background(20,100,20,255);
+  background(90,100,90,255);
   Engine.update(engine);
 
   for(let i =0;i<particles.length;i++){
