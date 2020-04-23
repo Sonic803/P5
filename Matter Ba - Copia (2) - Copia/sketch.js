@@ -95,7 +95,7 @@ function draw() {
   //    var p = new Particle(windth/2,0,35);
   //    particles.push(p);
   //  }
-  background(100);
+  background(20,100,20,255);
   Engine.update(engine);
 
   for(let i =0;i<particles.length;i++){
