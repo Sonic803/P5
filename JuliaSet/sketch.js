@@ -38,7 +38,7 @@ function crist (){
 
 loadPixels();
   xa=map(mouseX,0,Windth,-2,2);
-  ya=map(mouseY,0,Length,-2,2);
+  ya=map(mouseY,Length,0,-2,2);
   for(i=0;i<Windth;i++){
     for (j=0;j<Length;j++){
         x=map(i,0,Windth,-2,2);
