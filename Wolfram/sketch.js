@@ -1,6 +1,6 @@
 
 let rule=30;
-let w=1921;
+let w=201;
 let h=((w-3)/2);
 let kk=1;
 let windth=w*kk;
@@ -32,8 +32,10 @@ function aaa(){
 let s;
 function setup() {
 s = createInput(30);
+f = createInput(100);
 frameRate(60);
 s.input(aaa);
+ f.input(pad);
 }
 let bbb=10;
 function draw() {
@@ -94,7 +96,17 @@ console.log("ciao")
     }
   }
 
-
-
-
 }
+
+function pad(){
+  ddd=false
+  w=this.value()*2+1;
+
+   h=((w-3)/2);
+   A.lenght=h
+
+   B.lenght=h
+   windth=w*kk;
+   heigth=h*kk;
+}
+
