@@ -1,5 +1,5 @@
 
-let rule=34433434;
+let rule=34433434*2+1;
 let w=201;
 let h=((w-3)/2);
 let kk=1;
