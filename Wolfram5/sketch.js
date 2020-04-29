@@ -90,7 +90,7 @@ console.log("ciao")
     j=xxx+4;
     while(j<xx-1){
       if(B[conta]){
-        A[i+1][j-1].v=1;
+        A[i+1][j-2].v=1;
       }
       conta=conta*2;
       conta-=32*(A[i][j-4].v);
